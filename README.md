@@ -1,50 +1,18 @@
-# React + TypeScript + Vite
+If you want to setup this in your system.
+1) Clone it in your system
+2) Run the follwoing command in the project repo
+3) npm i
+4) npm install @reduxjs/toolkit react-redux.
+5) npm run dev
+6) Now you have to click on the login it is just a mock authentication.
+![image](https://github.com/user-attachments/assets/14e3f45b-84ec-4f00-b6a8-38d0b08b4afd)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+7) This is app you can use it to create and delete taks for yourself.
+![image](https://github.com/user-attachments/assets/595f43b3-82ef-49c9-ab21-2cb74e272bc3)
 
-Currently, two official plugins are available:
+8) Create task by clicking on the add task button and you can select the priority for it as well.
+9) If you select the checkbox in the particular task which mean it is done and it will come below with line through inside it.
+    ![image](https://github.com/user-attachments/assets/0a860159-b440-4f31-8b55-6d4274b38ebe)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+10) You can change the theme by clicking on the moon or son icon in the app bar.
+So this is the app I built.
