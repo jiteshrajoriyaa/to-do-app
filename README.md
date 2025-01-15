@@ -15,4 +15,7 @@ If you want to setup this in your system.
     ![image](https://github.com/user-attachments/assets/0a860159-b440-4f31-8b55-6d4274b38ebe)
 
 10) You can change the theme by clicking on the moon or son icon in the app bar.
+11) In the deployed version, the avatar.png and and delete icon is not showing. But if you clone it on the system then It would work.
+12) This is link: https://to-do-app-eta-tawny.vercel.app/
 So this is the app I built.
+    ------Thank you -- 
